@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>VibeTech</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!--Insert Google Link Import-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 3D Headphones Script -->
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.10.99/build/spline-viewer.js"
+    ></script>
+
+    <!-- icons CDN -->
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
+
+    <!-- CUSTOM FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+DE+SAS:wght@100..400&family=Zen+Dots&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chewy&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Keven's Add-on for Customer Review and Footer-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
+      rel="stylesheet"
+    />
+    <!--End Keven's Add-on for Customer Review and Footer-->
+  </head>
+  <body>
+    <!-- NAVBAR Section -->
+<section class="nav_black" id="home">
+  <header
+  class="sticky-top z-3 bg-bg-dark py-3"
+  style="background-color: rgba(10, 13, 16, 0.95); backdrop-filter: blur(5px);"
+>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-xl d-flex align-items-center">
+
+      <!-- LOGO -->
+      <a 
+         class="h4 fw-bolder text-decoration-none"
+         style="letter-spacing: 2px; color: #E8E8E8;">
+        V I B E <span style="color: #7df9ff;">T E C H</span>
+      </a>
+
+      <!--DENIS, NAVBAR COLLAPSE-->
+
+      <!-- Toggler -->
+      <button class="navbar-toggler ms-auto" type="button"
+      style="margin-right: 30px;"
+              data-bs-toggle="collapse"
+              data-bs-target="#mainNavbar"
+              aria-controls="mainNavbar"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapsible Menu -->
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link hover-accent" style="color:#616161;" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link hover-accent" style="color:#616161;" href="#phone_cases">Phone Cases</a></li>
+          <li class="nav-item"><a class="nav-link hover-accent" style="color:#616161;" href="#headphones">Headphones</a></li>
+          <li class="nav-item"><a class="nav-link hover-accent" style="color:#616161;" href="#chargers">Chargers</a></li>
+          <li class="nav-item"><a class="nav-link hover-accent" style="color:#616161;" href="#accessories">VR Accessories</a></li>          
+        </ul>
+      </div>
+
+      <!--DENIS NAVBAR COLLAPSE END-->
+
+      <!-- DENIS Working Cart -->
+      <button id="cart-btn" class="btn btn-outline-light position-relative">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+             fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round"
+             class="text-faded hover-accent">
+          <circle cx="8" cy="21" r="1" />
+          <circle cx="19" cy="21" r="1" />
+          <path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.63h9.72a2 2 0 0 0 2-1.63L23 6H6" />
+        </svg>
+        <span id="cart-count" 
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          0
+        </span>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- NAVBAR Section END -->
+
+    <!-- Phone Cases Row -->
+
+    <section class="black py-0" id="phone_cases">
+      <div class="container">
+        <!-- Chris' Header Padding -->
+        <!-- Return Button -->
+          <a href="https://lwg94c-5000.csb.app/#home" class="return-btn">
+          &larr; Return
+          </a>
+        <!-- Header sits ABOVE the row -->
+        <header class="text-center py-5">
+          <h1 class="text-white">Phone Cases</h1>
+        </header>
+        <!-- Chris' Header Padding END -->
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <!-- Product 1 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRCmP-dKq0g8zd99ZjYSms7srpdR3yQkUCiM52fCSBBIVNIby0UFTBohyrKvTcz43hroIsp2UHn8KaHzf1nVrsMlZxYp9KHUjNpL-5dnawcGVHDEjLX4CGvTaBEkaqJyW3CmmrErtQJKQ&usqp=CAc"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Crystal Clear Guard</h5>
+                <p class="card-text">
+                  A sleek, transparent case with bold polka dots that showcases your phone’s original design while adding subtle flair.
+                </p>
+                <p>Price: $11.99</p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="Crystal Clear Guard"
+                    data-price="11.99"
+                    data-img="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRCmP-dKq0g8zd99ZjYSms7srpdR3yQkUCiM52fCSBBIVNIby0UFTBohyrKvTcz43hroIsp2UHn8KaHzf1nVrsMlZxYp9KHUjNpL-5dnawcGVHDEjLX4CGvTaBEkaqJyW3CmmrErtQJKQ&usqp=CAc"
+                  >
+                    Add to Cart
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQB_8AP2l41a6ppxVynED9ZPrE1rK7-EJZfYljjv8wENAxx8Z05GQwmvSsXfuk-kSusz2RpbMnVLcktqBMyzQbl-tbieiDKRUIcAP6hWWA5E89-K4qt8EDyhyFJeM0UzjIATwF4uQ&usqp=CAc"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Impact Shield Case</h5>
+                <p class="card-text">
+                  A rugged, denim-textured case featuring a striking leopard-print cross for standout style and durable protection.
+                </p>
+                <p>Price: $14.99</p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="Impact Shield Case"
+                    data-price="14.99"
+                    data-img="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQB_8AP2l41a6ppxVynED9ZPrE1rK7-EJZfYljjv8wENAxx8Z05GQwmvSsXfuk-kSusz2RpbMnVLcktqBMyzQbl-tbieiDKRUIcAP6hWWA5E89-K4qt8EDyhyFJeM0UzjIATwF4uQ&usqp=CAc"
+                  >
+                    Add to Cart
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->          
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRgU6SrxJ21KHLw4oIbZnZc_yEDOwAv417RZRvxmZrgH3J7BBJDgf4cYlA9CLmRaNEoNpJhhBZyfr3kfjZerkSqLvn2tRkIloL1RwkeNJS0aeh85OJ1fou53fzFbChuFDU2nkORxuU_&usqp=CAc"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">ArmorFlex Pro</h5>
+                <p class="card-text">
+                  A premium protective case with a flowing ribbon design that merges abstract art, signature detailing, and reinforced durability for everyday impact.
+                </p>
+                <p>Price: $17.99</p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="ArmorFlex Pro"
+                    data-price="17.99"
+                    data-img="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRgU6SrxJ21KHLw4oIbZnZc_yEDOwAv417RZRvxmZrgH3J7BBJDgf4cYlA9CLmRaNEoNpJhhBZyfr3kfjZerkSqLvn2tRkIloL1RwkeNJS0aeh85OJ1fou53fzFbChuFDU2nkORxuU_&usqp=CAc"
+                  >
+                    Add to Cart
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRcdSNnHDmbD7pJmLqfxzZJhPXCbVdoMLwK4gpROSaEHI9iLz7JUNtL5ipHs931DVfnuXS-sNLfyRhJeYs0BGrKjRHmEy-vYj2GsaowQ0cB9VnlkJta14kPiYitTq4Fz8ZRvUjKqg&usqp=CAc"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">UltraGrip Silicone</h5>
+                <p class="card-text">
+                  A bold camouflage case with a textured star centerpiece, built for secure grip and standout style.
+                </p>
+                <p>Price: $21.99</p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="UltraGrip Silicone"
+                    data-price="21.99"
+                    data-img="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRcdSNnHDmbD7pJmLqfxzZJhPXCbVdoMLwK4gpROSaEHI9iLz7JUNtL5ipHs931DVfnuXS-sNLfyRhJeYs0BGrKjRHmEy-vYj2GsaowQ0cB9VnlkJta14kPiYitTq4Fz8ZRvUjKqg&usqp=CAc"
+                  >
+                    Add to Cart
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+<!-- Headphones Row -->
+
+    <section class="black py-0" id="headphones">
+      <div class="container">
+        <!-- Chris' Header Padding -->
+        <!-- Header sits ABOVE the row -->
+        <header class="text-center py-5">
+          <h1 class="text-white">Headphones</h1>
+        </header>
+        <!-- Chris' Header Padding END -->
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <!-- Product 1 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://i5.walmartimages.com/seo/Bluetooth-Headphones-Ear-Wireless-Headphones-Microphone-Foldable-Lightweight-Headset-Deep-Bass-HiFi-Stereo-Sound-Travel-Work-Khaki_40fb3826-5d33-4967-ad2f-34541e372c10.2d47f3cc8da0e2a1e4168d0aa0294d03.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">NoiseBlock X2</h5>
+                <p class="card-text">
+                  Minimalist over-ear headphones designed for immersive noise cancellation and all-day comfort.
+                </p>
+                <p>Price: $59.99</p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="NoiseBlock X2"
+                    data-price="59.99"
+                    data-img="https://i5.walmartimages.com/seo/Bluetooth-Headphones-Ear-Wireless-Headphones-Microphone-Foldable-Lightweight-Headset-Deep-Bass-HiFi-Stereo-Sound-Travel-Work-Khaki_40fb3826-5d33-4967-ad2f-34541e372c10.2d47f3cc8da0e2a1e4168d0aa0294d03.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+                  >
+                    Add to Cart
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTXIP1voHvBVA-V4DkHpkCQVKTZv90VRFCbC36klgMz1-UiYZbGjcJ2fmk_84jWk_JFa0EBTAObhyFwwhx14IovcOA_v5MKEHJ09lHDk9ZIfmDG2R4yrFi0YE2YXU-5Y0bbL22gpcg&usqp=CAc"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">BassMaster 500</h5>
+                <p class="card-text">
+                  Powerful wireless headphones engineered for deep bass and high-performance audio.
+                </p>
+                <p>Price: $67.99</p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="BassMaster 500"
+                    data-price="67.99"
+                    data-img="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTXIP1voHvBVA-V4DkHpkCQVKTZv90VRFCbC36klgMz1-UiYZbGjcJ2fmk_84jWk_JFa0EBTAObhyFwwhx14IovcOA_v5MKEHJ09lHDk9ZIfmDG2R4yrFi0YE2YXU-5Y0bbL22gpcg&usqp=CAc"
+                  >
+                    Add to Cart
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->          
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRqY-VLYZvG3yVCx991gwqqXzUwxsZLdVyukdadEc-LwP-t5GHSPEeEokEKZgraDOmSVDLqNrp5A3vMjeAEnfRHI2HYoLDmit5bHSLFFHmrDKOKj4NwMme2"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">StudioWave Elite</h5>
+                <p class="card-text">
+                  Glossy black-and-red headphones built for studio-grade sound with a bold, premium finish.
+                </p>
+                <p>Price: $78.99</p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="StudioWave Elite"
+                    data-price="78.99"
+                    data-img="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRqY-VLYZvG3yVCx991gwqqXzUwxsZLdVyukdadEc-LwP-t5GHSPEeEokEKZgraDOmSVDLqNrp5A3vMjeAEnfRHI2HYoLDmit5bHSLFFHmrDKOKj4NwMme2"
+                  >
+                    Add to Cart
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSI-7c5MONyySTsf6WmNnOzSsX7_1nH8qbO6RIr9MjYJYwGca4jhiCIia5zS6s32bqNCNpGwxzv7cC1n0pBiCpWIVL_fIk8WUKF9shA35fTqiS_ob6xbTUI3Q"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">AeroSound Lite</h5>
+                <p class="card-text">
+                  Lightweight wireless headphones with a sleek black-and-blue design tuned for everyday listening.
+                </p>
+                <p>Price: $89.99</p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="AeroSound Lite"
+                    data-price="89.99"
+                    data-img="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSI-7c5MONyySTsf6WmNnOzSsX7_1nH8qbO6RIr9MjYJYwGca4jhiCIia5zS6s32bqNCNpGwxzv7cC1n0pBiCpWIVL_fIk8WUKF9shA35fTqiS_ob6xbTUI3Q"
+                  >
+                    Add to Cart
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Chargers Row -->
+
+    <section class="black py-0" id="chargers">
+      <div class="container">
+        <!-- Chris' Header Padding -->
+        <!-- Header sits ABOVE the row -->
+        <header class="text-center py-5">
+          <h1 class="text-white">Chargers</h1>
+        </header>
+        <!-- Chris' Header Padding END -->
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <!-- Product 1 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://www.belkin.com/on/demandware.static/-/Sites-master-product-catalog-blk/default/dw5f3a427a/images/hi-res/NaN/a5efbba9aecdd3a_WIZ036bk-3-in-1-25w-wirless-charger-shot-hero-01.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">FastCharge Mini</h5>
+                <p class="card-text">
+                  A compact dual-device stand designed for streamlined vertical phone charging and horizontal watch support.
+                </p>
+                <p>Price: $23.99</p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="FastCharge Mini"
+                    data-price="23.99"
+                    data-img="https://www.belkin.com/on/demandware.static/-/Sites-master-product-catalog-blk/default/dw5f3a427a/images/hi-res/NaN/a5efbba9aecdd3a_WIZ036bk-3-in-1-25w-wirless-charger-shot-hero-01.png"
+                  >
+                    Add to Cart
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQy_WcflkahgRQUkRxQtW5EtOwgx41nYXCyeBKN3AS5DnbCn4kSjVhjJM-IbB9eSaavT0qZ3uqPesfG9xpnoOqr4Pkqsq-TfhHjYfJH8jGUphaNFnEljfic"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">VoltRush Pro</h5>
+                <p class="card-text">
+                  A dynamic multi-device station with glowing indicators and efficient layout for fast, simultaneous charging.
+                </p>
+                <p>Price: $34.99</p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="VoltRush Pro"
+                    data-price="34.99"
+                    data-img="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQy_WcflkahgRQUkRxQtW5EtOwgx41nYXCyeBKN3AS5DnbCn4kSjVhjJM-IbB9eSaavT0qZ3uqPesfG9xpnoOqr4Pkqsq-TfhHjYfJH8jGUphaNFnEljfic"
+                  >
+                    Add to Cart
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->          
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRWiDtpiWYOUfGQxD7PUeazvGA6In-IXGcOksTsmJlyupMSdZeH_tcHYWaEjMPHkeY6qtGwtox95kxzuXu2V-Dbt9DaNAkP_8W_8dtbP6KH_DtQD5pMfTyo"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">PowerZap X</h5>
+                <p class="card-text">
+                  A minimalist dock that delivers sleek design and reliable dual-device power with visual charge feedback.
+                </p>
+                <p>Price: $47.99</p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="PowerZap X"
+                    data-price="47.99"
+                    data-img="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRWiDtpiWYOUfGQxD7PUeazvGA6In-IXGcOksTsmJlyupMSdZeH_tcHYWaEjMPHkeY6qtGwtox95kxzuXu2V-Dbt9DaNAkP_8W_8dtbP6KH_DtQD5pMfTyo"
+                  >
+                    Add to Cart
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcREij2l7AZhbjk4dvE-gqd5h9D7-SCz7LMXBq2R3TQS0yrbHdHBiugRYOafQNpvxlqwF7HEvwrfDH9d42PL3P6AfevE6uUuftcikWwkCrWpusizBO_JaSySdg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">MaxCharge Pro</h5>
+                <p class="card-text">
+                  A versatile charging hub with smart display integration and angled design for optimized viewing and power flow.
+                </p>
+                <p>Price: $59.99</p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="MaxCharge Pro"
+                    data-price="59.99"
+                    data-img="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcREij2l7AZhbjk4dvE-gqd5h9D7-SCz7LMXBq2R3TQS0yrbHdHBiugRYOafQNpvxlqwF7HEvwrfDH9d42PL3P6AfevE6uUuftcikWwkCrWpusizBO_JaSySdg"
+                  >
+                    Add to Cart
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- VR Accessories -->
+
+    <section class="black py-0" id="accessories">
+      <div class="container">
+        <!-- Chris' Header Padding -->
+        <!-- Header sits ABOVE the row -->
+        <header class="text-center py-5">
+          <h1 class="text-white">VR Accessories</h1>
+        </header>
+        <!-- Chris' Header Padding END -->
+
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <!-- Product 1 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://readyteamone.com/wp-content/uploads/2024/06/Cheap-Standalone-VR-Headset.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Meta VR Headset</h5>
+                <p class="card-text">
+                  A sleek, immersive headset built for high-fidelity virtual experiences with intuitive comfort.
+                </p>
+                <p>Price: $179.99</p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="Meta VR Headset"
+                    data-price="179.99"
+                    data-img="https://readyteamone.com/wp-content/uploads/2024/06/Cheap-Standalone-VR-Headset.jpg"
+                  >
+                    Add to Cart
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://unboundxr.co.uk/media/catalog/product/cache/00b36ac9b7793203443e8a5a49fd8f5f/6/_/6_2_5.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Meta VR Controllers</h5>
+                <p class="card-text">
+                  Ergonomic motion controllers designed for precise, responsive interaction in virtual environments.
+                </p>
+                <p>Price: $75.99</p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="Meta VR Controllers"
+                    data-price="75.99"
+                    data-img="https://unboundxr.co.uk/media/catalog/product/cache/00b36ac9b7793203443e8a5a49fd8f5f/6/_/6_2_5.webp"
+                  >
+                    Add to Cart
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->          
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://www.woojer.com/cdn/shop/files/WJRV4BHNV-101-MFM_2_720x.png?v=1758106686"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Meta Haptic Vest 4</h5>
+                <p class="card-text">
+                  A next-gen wearable vest that delivers tactile feedback and multi-zone vibration for deeper realism in VR gameplay.
+                </p>
+                <p>Price: $249.99</p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="Meta Haptic Vest 4"
+                    data-price="249.99"
+                    data-img="https://www.woojer.com/cdn/shop/files/WJRV4BHNV-101-MFM_2_720x.png?v=1758106686"
+                  > 
+                    Add to Cart
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 4 -->
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://www.olenvr.com/cdn/shop/files/Spine-Ghost-Edition-Vr-Gun-Stock-Meta-Quest-3-Controllers-Attached.webp?v=1751916722&width=800"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Spine VR Gun Stock</h5>
+                <p class="card-text">
+                  A precision-crafted gun stock accessory that enhances VR shooting with lifelike handling and control.
+                </p>
+                <p>Price: $129.99</p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="Spine VR Gun Stock"
+                    data-price="129.99"
+                    data-img="https://www.olenvr.com/cdn/shop/files/Spine-Ghost-Edition-Vr-Gun-Stock-Meta-Quest-3-Controllers-Attached.webp?v=1751916722&width=800"
+                  >
+                    Add to Cart
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Discretionary Content -->
+
+    <!-- Cards Row 2
+    <section class="black pt-0" id="our_products">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://cdn-image02.casetify.com/usr/28107/46228107/~v16/35684106_iphone-17-pro__color_white-titanium_16009386.png.560x560-w.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Phone Cases</h5>
+                <p class="card-text">
+                  Slim, stylish, and shockproof—our phone cases protect your
+                  device while showing off your personal style.
+                </p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="Phone Cases"
+                    data-price="14.99"
+                    data-img="https://cdn-image02.casetify.com/usr/28107/46228107/~v16/35684106_iphone-17-pro__color_white-titanium_16009386.png.560x560-w.webp"
+                  >
+                    Add to Cart
+                  </button>
+                  <a class="btn btn-success inspect" href="https://fyg27n-5000.csb.app/">
+                    Back to Site 
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://cdn-image02.casetify.com/usr/28107/46228107/~v16/35684106_iphone-17-pro__color_white-titanium_16009386.png.560x560-w.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Phone Cases</h5>
+                <p class="card-text">
+                  Slim, stylish, and shockproof—our phone cases protect your
+                  device while showing off your personal style.
+                </p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="Phone Cases"
+                    data-price="14.99"
+                    data-img="https://cdn-image02.casetify.com/usr/28107/46228107/~v16/35684106_iphone-17-pro__color_white-titanium_16009386.png.560x560-w.webp"
+                  >
+                    Add to Cart
+                  </button>
+                  <a class="btn btn-success inspect" href="https://fyg27n-5000.csb.app/">
+                    Back to Site 
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                    
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://cdn-image02.casetify.com/usr/28107/46228107/~v16/35684106_iphone-17-pro__color_white-titanium_16009386.png.560x560-w.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Phone Cases</h5>
+                <p class="card-text">
+                  Slim, stylish, and shockproof—our phone cases protect your
+                  device while showing off your personal style.
+                </p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="Phone Cases"
+                    data-price="14.99"
+                    data-img="https://cdn-image02.casetify.com/usr/28107/46228107/~v16/35684106_iphone-17-pro__color_white-titanium_16009386.png.560x560-w.webp"
+                  >
+                    Add to Cart
+                  </button>
+                  <a class="btn btn-success inspect" href="https://fyg27n-5000.csb.app/">
+                    Back to Site 
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://cdn-image02.casetify.com/usr/28107/46228107/~v16/35684106_iphone-17-pro__color_white-titanium_16009386.png.560x560-w.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Phone Cases</h5>
+                <p class="card-text">
+                  Slim, stylish, and shockproof—our phone cases protect your
+                  device while showing off your personal style.
+                </p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="Phone Cases"
+                    data-price="14.99"
+                    data-img="https://cdn-image02.casetify.com/usr/28107/46228107/~v16/35684106_iphone-17-pro__color_white-titanium_16009386.png.560x560-w.webp"
+                  >
+                    Add to Cart
+                  </button>
+                  <a class="btn btn-success inspect" href="https://fyg27n-5000.csb.app/">
+                    Back to Site 
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+<!-- Discretionary END -->
+
+<!-- Discretionary Cards Row !
+
+    <section class="black py-0 pb-4" id="our_products">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-4 pb-3">
+          
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://cdn-image02.casetify.com/usr/28107/46228107/~v16/35684106_iphone-17-pro__color_white-titanium_16009386.png.560x560-w.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Phone Cases</h5>
+                <p class="card-text">
+                  Slim, stylish, and shockproof—our phone cases protect your
+                  device while showing off your personal style.
+                </p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="Phone Cases"
+                    data-price="14.99"
+                    data-img="https://cdn-image02.casetify.com/usr/28107/46228107/~v16/35684106_iphone-17-pro__color_white-titanium_16009386.png.560x560-w.webp"
+                  >
+                    Add to Cart
+                  </button>
+                  <a class="btn btn-success inspect" href="https://fyg27n-5000.csb.app/">
+                    Back to Site 
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://cdn-image02.casetify.com/usr/28107/46228107/~v16/35684106_iphone-17-pro__color_white-titanium_16009386.png.560x560-w.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Phone Cases</h5>
+                <p class="card-text">
+                  Slim, stylish, and shockproof—our phone cases protect your
+                  device while showing off your personal style.
+                </p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="Phone Cases"
+                    data-price="14.99"
+                    data-img="https://cdn-image02.casetify.com/usr/28107/46228107/~v16/35684106_iphone-17-pro__color_white-titanium_16009386.png.560x560-w.webp"
+                  >
+                    Add to Cart
+                  </button>
+                  <a class="btn btn-success inspect" href="https://fyg27n-5000.csb.app/">
+                    Back to Site 
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                    
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://cdn-image02.casetify.com/usr/28107/46228107/~v16/35684106_iphone-17-pro__color_white-titanium_16009386.png.560x560-w.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Phone Cases</h5>
+                <p class="card-text">
+                  Slim, stylish, and shockproof—our phone cases protect your
+                  device while showing off your personal style.
+                </p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="Phone Cases"
+                    data-price="14.99"
+                    data-img="https://cdn-image02.casetify.com/usr/28107/46228107/~v16/35684106_iphone-17-pro__color_white-titanium_16009386.png.560x560-w.webp"
+                  >
+                    Add to Cart
+                  </button>
+                  <a class="btn btn-success inspect" href="https://fyg27n-5000.csb.app/">
+                    Back to Site 
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="https://cdn-image02.casetify.com/usr/28107/46228107/~v16/35684106_iphone-17-pro__color_white-titanium_16009386.png.560x560-w.webp"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Phone Cases</h5>
+                <p class="card-text">
+                  Slim, stylish, and shockproof—our phone cases protect your
+                  device while showing off your personal style.
+                </p>
+                <div class="px-1.9">
+                  <button
+                    class="btn btn-primary add-to-cart"
+                    data-name="Phone Cases"
+                    data-price="14.99"
+                    data-img="https://cdn-image02.casetify.com/usr/28107/46228107/~v16/35684106_iphone-17-pro__color_white-titanium_16009386.png.560x560-w.webp"
+                  >
+                    Add to Cart
+                  </button>
+                  <a class="btn btn-success inspect" href="https://fyg27n-5000.csb.app/">
+                    Back to Site 
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section> 
+Discretionary Cards Row END ! -->
+
+<!-- Thank You Note -->
+
+     <section class="black py-0" id="our_products">
+      <div class="container">
+        <!-- Chris' Header Padding -->
+        <!-- Header sits ABOVE the row -->
+        <header class="text-center py-5">
+          <h1 class="text-white">Thank You For Shopping With Us!</h1>
+        </header>        
+        </div>
+      </section>
+
+<!-- Thank You Note END -->
+
+    <!-- DO NOT PASS THIS SPACE ! RESTRICTED ZONE ! -->
+
+    <!--Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <div id="loading">
+      <div class="loader"></div>
+    </div>
+    <!-- Bootstrap END -->
+
+<!--DENIS, NAVBAR DISAPPEAR-->
+<script>
+  let lastScrollTop = 0;
+  const navbar = document.querySelector("header");
+
+window.addEventListener("scroll", () => {
+  let currentScroll = window.scrollY;
+
+  if (currentScroll > lastScrollTop && currentScroll > 80) {
+    // Scrolling down
+    navbar.classList.add("hide-nav");
+    navbar.classList.remove("show-nav");
+  } else {
+    // Scrolling up
+    navbar.classList.add("show-nav");
+    navbar.classList.remove("hide-nav");
+  }
+
+  lastScrollTop = currentScroll;
+});
+</script>
+<!--DENIS, NAVBAR DISAPPEAR END-->
+
+    <!-- DENIS CHATBOT-->
+    <!-- Floating Chat Bubble -->
+    <a
+      href="https://poe.com/VibeTechChatbot"
+      target="_blank"
+      class="chat-bubble"
+    >
+      🤖
+    </a>
+    <!-- CHATBOT END -->
+
+    <!-- DENIS CART -->
+    <!-- Cart Modal -->
+    <div
+      class="modal fade"
+      id="cartModal"
+      tabindex="-1"
+      aria-labelledby="cartModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartModalLabel">Your Cart</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Item</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Subtotal</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="cart-items"></tbody>
+            </table>
+            <h5 class="text-end">Total: $<span id="cart-total">0.00</span></h5>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-dark" data-bs-dismiss="modal">
+              Continue Shopping
+            </button>
+            <button class="btn btn-primary" id="checkout-btn">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DENIS CART SCRIPT -->
+    <script>
+      const cart = [];
+      const cartCount = document.getElementById("cart-count");
+      const cartItemsContainer = document.getElementById("cart-items");
+      const cartTotal = document.getElementById("cart-total");
+      const cartBtn = document.getElementById("cart-btn");
+      const cartModal = new bootstrap.Modal(
+        document.getElementById("cartModal")
+      );
+
+      document.querySelectorAll(".add-to-cart").forEach((button) => {
+        button.addEventListener("click", () => {
+          const name = button.dataset.name;
+          const price = parseFloat(button.dataset.price);
+          const img = button.dataset.img;
+
+          const existingItem = cart.find((item) => item.name === name);
+          if (existingItem) {
+            existingItem.quantity++;
+          } else {
+            cart.push({ name, price, img, quantity: 1 });
+          }
+
+          updateCart();
+        });
+      });
+
+      function updateCart() {
+        cartItemsContainer.innerHTML = "";
+        let total = 0;
+        cart.forEach((item, index) => {
+          const subtotal = item.price * item.quantity;
+          total += subtotal;
+
+          const row = document.createElement("tr");
+          row.innerHTML = `
+      <td><img src="${item.img}" alt="${item.name}" width="50"> ${
+            item.name
+          }</td>
+      <td>$${item.price.toFixed(2)}</td>
+      <td>
+        <input type="number" min="1" value="${
+          item.quantity
+        }" class="form-control form-control-sm w-50" 
+        onchange="changeQuantity(${index}, this.value)">
+      </td>
+      <td>$${subtotal.toFixed(2)}</td>
+      <td><button class="btn btn-sm btn-danger" onclick="removeItem(${index})">&times;</button></td>
+    `;
+          cartItemsContainer.appendChild(row);
+        });
+
+        cartTotal.textContent = total.toFixed(2);
+        cartCount.textContent = cart.reduce((sum, i) => sum + i.quantity, 0);
+      }
+
+      function changeQuantity(index, newQuantity) {
+        cart[index].quantity = parseInt(newQuantity);
+        updateCart();
+      }
+
+      function removeItem(index) {
+        cart.splice(index, 1);
+        updateCart();
+      }
+
+      cartBtn.addEventListener("click", () => {
+        cartModal.show();
+      });
+
+      document.getElementById("checkout-btn").addEventListener("click", () => {
+      });
+    </script>
+
+    <div id="cart-popup" class="cart-popup">Item added to cart!</div>
+
+    <script>
+      const addToCartButtons = document.querySelectorAll(".add-to-cart");
+      const cartPopup = document.getElementById("cart-popup");
+
+      addToCartButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          // Show popup
+          cartPopup.classList.add("show");
+
+          // Hide after 2 seconds
+          setTimeout(() => {
+            cartPopup.classList.remove("show");
+          }, 2000);
+        });
+      });
+    </script>
+    <!-- DENIS CART END-->
+
+    <!--DENIS CHECKOUT -->
+<!-- Checkout Modal -->
+<div class="modal fade" id="checkoutModal" tabindex="-1" aria-labelledby="checkoutModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="checkoutModalLabel">Checkout</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="checkout-form">
+          <div class="mb-3">
+            <label for="customer-name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="customer-name" required>
+          </div>
+          <div class="mb-3">
+            <label for="customer-email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="customer-email" required>
+          </div>
+          <div class="mb-3">
+            <label for="customer-address" class="form-label">Address</label>
+            <input type="text" class="form-control" id="customer-address" required>
+          </div>
+          <div class="mb-3">
+            <label for="payment-method" class="form-label">Payment Method</label>
+            <select class="form-select" id="payment-method" required>
+              <option value="">Select...</option>
+              <option value="credit-card">Credit Card</option>
+              <option value="paypal">PayPal</option>
+              <option value="cash">Cash on Delivery</option>
+            </select>
+          </div>
+          <h5>Total: $<span id="checkout-total">0.00</span></h5>
+          <button type="submit" class="btn btn-primary t-3">Place Order</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const checkoutModal = new bootstrap.Modal(document.getElementById('checkoutModal'));
+  const checkoutTotal = document.getElementById('checkout-total');
+
+  document.getElementById('checkout-btn').addEventListener('click', () => {
+  if (cart.length === 0) {
+    alert("Your cart is empty!");
+    return;
+  }
+
+  // Show total in checkout modal
+  checkoutTotal.textContent = cartTotal.textContent;
+
+  // Open the checkout modal
+  checkoutModal.show();
+});
+
+</script>
+
+<script>
+  document.getElementById('checkout-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  const name = document.getElementById('customer-name').value;
+  const email = document.getElementById('customer-email').value;
+  const address = document.getElementById('customer-address').value;
+  const payment = document.getElementById('payment-method').value;
+
+  console.log('Order Details:', { name, email, address, payment, cart });
+
+  // Clear cart
+  cart.length = 0;
+  updateCart();
+
+  // Close checkout modal
+  checkoutModal.hide();
+
+  // Show success message
+  alert(`Thank you, ${name}! Your order has been placed successfully.`);
+});
+</script>
+<!-- DENIS CHECKOUT END -->
+
+  </body>
+</html>
